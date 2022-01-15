@@ -2,17 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './style.css';
 
-class Hello extends React.Component {
-  state = {
-    name: "James"
+class Hello extends React.Component{
+  state={
+    name:"James"
   }
-  render() {
-    return <h1>Hello {this.state.name}.</h1>;    
+  render(){
+    return <h1>Hello {this.state.name}.</h1>;
   }
 }
-
-const el = <Hello />; 
+const el=<Hello />;
 ReactDOM.render(
-  el, 
+  el,
   document.getElementById('root')
 );
